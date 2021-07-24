@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links div {
+    margin: 12px;
+}
+
+.nav-links div a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+.menu-icon {
+    display: grid;
+    grid-template-columns: 10px 10px 10px;
+    height: 16px;
+}
+
+.menu-icon span {
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    margin: 1.5px;
+}
+
+.portrait-icon {
+    width: 31px;
+    height: 31px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img {
+    margin-top: 50%;
+}
+
+.content input {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px;
+    font-size: 1.4rem;
+    border-radius: 20px;
+    width: 29%;
+    margin: 30px;
+}
+
+.buttons button {
+    font-size: .9rem;
+    padding: 15px;
+    margin-left: 8px;
+    outline: none;
+    border: 1px solid white;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}
+
+.buttons button:focus{
+    border: 1px solid blue;
+}
